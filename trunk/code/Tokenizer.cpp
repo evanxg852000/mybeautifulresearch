@@ -1,3 +1,6 @@
+/*
+An attemp to write a string tokenizer for a parsing tool !
+*/
 #include <iostream>
 #include <vector>
 #include <string>
