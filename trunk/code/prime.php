@@ -50,9 +50,7 @@ function get_prime($n){
 */
 function get_prime_bis($n, $size=100, $factor=1.5){
 	if(count(get_prime($size))<$n){
-		$s=$size*$factor;
-		echo $s;
-		return get_prime_bis($n,$s,$factor);
+		return get_prime_bis($n,$size*$factor,$factor);
 	}
 	else if(count(get_prime($size))>$n){
 		return array_slice( get_prime($size),0,$n);
