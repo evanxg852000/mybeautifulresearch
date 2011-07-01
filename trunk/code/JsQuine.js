@@ -1,2 +1,2 @@
 //java script Quine
-(function t(){alert(t.toString())}());
+(function f(){alert(f.toString())}());
