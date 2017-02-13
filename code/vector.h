@@ -1,3 +1,9 @@
+
+/*
+    This is my version of the stl vector class 
+    A growable array data structure 
+*/
+
 #ifndef VECTOR_H
 #define VECTOR_H
 
